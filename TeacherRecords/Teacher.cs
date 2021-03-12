@@ -63,6 +63,9 @@ namespace TeacherRecords
             }
             newlines[i] = updatedline;
             File.WriteAllLines("TeacherData.txt", newlines);
+            Console.WriteLine("Data Updated successfuly! Your updated data is:-");
+            Console.WriteLine(updatedline);
+
         }
     }
 }
